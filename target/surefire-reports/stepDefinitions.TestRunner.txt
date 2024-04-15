@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: stepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 51.212 sec <<< FAILURE!
+Verify that user is able to login(Achiev INT Login #2)  Time elapsed: 0.049 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.achieveLogin_PF.navigate_to_achiev_page(achieveLogin_PF.java:35)
+	at ?.navigate to Achiev page(file:///C:/Users/jasdeep.singh/JavaCucumber_2023/JavaCucumberProject/src/test/resources/Features/Hooks_Demo/AchieveLogin_Hooks.feature:4)
+
+Verify that user is unable to login with invalid creds(Achiev INT Login #2)  Time elapsed: 0.05 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.achieveLogin_PF.navigate_to_achiev_page(achieveLogin_PF.java:35)
+	at ?.navigate to Achiev page(file:///C:/Users/jasdeep.singh/JavaCucumber_2023/JavaCucumberProject/src/test/resources/Features/Hooks_Demo/AchieveLogin_Hooks.feature:15)
+

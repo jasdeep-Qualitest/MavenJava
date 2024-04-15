@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="33.002" tests="10" skipped="0" failures="2" errors="0">
+<testcase classname="Achiev INT Login" name="Verify that user is able to login - Example #1.1" time="25.022">
+<system-out><![CDATA[
+Given Browser is open.......................................................passed
+And navigate to Achiev page.................................................passed
+And use click on sign in button.............................................passed
+When user enter achievetestautomation0508+admin1690176851919@gmail.com and Test@1234.passed
+And click on signin button..................................................passed
+Then user is navigated on Achieve Home Page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature test google search funtionality" name="validate search functionality is working fine" time="7.426">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And user is on google page..................................................passed
+When user emters a text in search box.......................................passed
+And hits enter..............................................................passed
+Then user is navigate to search Results.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Achiev INT Login" name="Verify that user is able to login - Example #1.1" time="0.106">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.navigate()&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.navigate()" because "this.driver" is null
+	at stepDefinitions.achieveLogin_PF.navigate_to_achiev_page(achieveLogin_PF.java:35)
+	at ✽.navigate to Achiev page(file:///C:/Users/jasdeep.singh/JavaCucumber_2023/JavaCucumberProject/src/test/resources/Features/Hooks_Demo/AchieveLogin_Hooks.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+Given navigate to Achiev page...............................................failed
+And use click on sign in button.............................................skipped
+When user enter valid achievetestautomation0508+admin1690176851919@gmail.com and Test@1234.skipped
+And click on signin button..................................................skipped
+Then user is navigated on Achieve Home Page.................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Achiev INT Login" name="Verify that user is unable to login with invalid creds - Example #1.1" time="0.005">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.navigate()&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.navigate()" because "this.driver" is null
+	at stepDefinitions.achieveLogin_PF.navigate_to_achiev_page(achieveLogin_PF.java:35)
+	at ✽.navigate to Achiev page(file:///C:/Users/jasdeep.singh/JavaCucumber_2023/JavaCucumberProject/src/test/resources/Features/Hooks_Demo/AchieveLogin_Hooks.feature:15)
+]]>
+</failure>
+<system-out><![CDATA[
+Given navigate to Achiev page...............................................failed
+And use click on sign in button.............................................skipped
+When user enter invalid achievetestautomation0508+admin11919@gmail.com and Test@134.skipped
+And click on signin button..................................................skipped
+Then verify invalid creds error message.....................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="feature to Test Login fucntionality" name="semple 0" time="0.001">
+</testcase>
+<testcase classname="feature to Test Login fucntionality" name="semple 1" time="0">
+</testcase>
+<testcase classname="feature to Test Login fucntionality" name="semple 2" time="0">
+</testcase>
+<testcase classname="feature to Test Login fucntionality" name="semple 3" time="0.001">
+</testcase>
+<testcase classname="feature to Test Login fucntionality" name="semple 4" time="0.001">
+</testcase>
+<testcase classname="feature to Test Login fucntionality" name="check user is able to login with valid creds" time="0.003">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When User enters the username and password..................................passed
+And click on the sign in button.............................................passed
+Then user navigated to the home page........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
